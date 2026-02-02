@@ -1,15 +1,17 @@
--- Oracle (DBMS) - version(21C) - xe(database��)
--- user(scott) - ���̺�.
+-- Oracle (DBMS) - version(21C) - xe(database명)
+-- user(scott) - 테이블.
 -- Structured Query Language(SQL)
-SELECT studno, name -- �÷���(��ü)
-FROM STUDENT; -- ���̺�.
+SELECT studno, name -- 컬럼명(전체)
+FROM STUDENT; -- 테이블.
 
--- 1) professor ���̺�. ��ü �÷� ��ȸ.
+-- 1) professor 테이블. 전체 컬럼 조회.
 SELECT *
 FROM PROFESSOR;
 
--- 2) �л� -> �л���ȣ, �̸�, �г�
+-- 2) 학생 -> 학생번호, 이름, 학년
 SELECT *
 FROM STUDENT;
 SELECT STUDNO, NAME, GRADE
 FROM STUDENT;
+
+-- 숙제완료함.
